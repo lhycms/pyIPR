@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyIPR/IPRGenerator.py
+pyIPR/__init__.py
+pyIPR.egg-info/PKG-INFO
+pyIPR.egg-info/SOURCES.txt
+pyIPR.egg-info/dependency_links.txt
+pyIPR.egg-info/top_level.txt
