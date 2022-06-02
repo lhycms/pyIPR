@@ -1,11 +1,3 @@
-'''
-Author: Uper 41718895+Hyliu-BUAA@users.noreply.github.com
-Date: 2022-06-01 15:58:52
-LastEditors: Uper 41718895+Hyliu-BUAA@users.noreply.github.com
-LastEditTime: 2022-06-02 13:36:55
-FilePath: /pyIPR/myIPR.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-'''
 import pandas as pd
 import numpy as np
 from prettytable import PrettyTable
@@ -13,6 +5,8 @@ from pymatgen.io.vasp import Procar
 from pymatgen.io.vasp.outputs import Eigenval
 from pymatgen.electronic_structure.core import Spin
 
+__author__ = "Hanyu Liu"
+__email__ = "hyliu2016@buaa.edu.cn"
 
 class IPRCalculator(object):
     '''

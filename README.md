@@ -15,9 +15,9 @@ $ pip3 install -e .
 ```python
 >>> from pyIPR.IPRGenerator import IPRCalculator
 >>> from pymatgen.electronic_structure.core import Spin
->>> procar_path = '/Users/mac/我的文件/Mycode/new/new/pyIPR/data/PROCAR'
->>> eigenval_path = "/Users/mac/我的文件/Mycode/new/new/pyIPR/data/EIGENVAL"
->>> output_path = "/Users/mac/我的文件/Mycode/new/new/pyIPR/data/IPRs.csv"
+>>> procar_path = '.../pyIPR/data/PROCAR'
+>>> eigenval_path = ".../pyIPR/data/EIGENVAL"
+>>> output_path = ".../pyIPR/data/IPRs.csv"
 >>> IPR_calculator = IPRCalculator(
                         procar_path=procar_path,
                         eigenval_path=eigenval_path,
@@ -39,10 +39,10 @@ $ pip3 install -e .
 >>> from pyIPR.IPRGenerator import IPRCalculator
 >>> from pymatgen.electronic_structure.core import Spin
 >>> from pymatgen.io.vasp.outputs import Vasprun
->>> procar_path = '/Users/mac/我的文件/Mycode/new/new/pyIPR/data/PROCAR'
->>> eigenval_path = "/Users/mac/我的文件/Mycode/new/new/pyIPR/data/EIGENVAL"
->>> vasprun_path = "/Users/mac/我的文件/Mycode/new/new/pyIPR/data/vasprun.xml"
->>> output_path = "/Users/mac/我的文件/Mycode/new/new/pyIPR/data/IPRs.csv"
+>>> procar_path = '.../pyIPR/data/PROCAR'
+>>> eigenval_path = ".../pyIPR/data/EIGENVAL"
+>>> vasprun_path = ".../pyIPR/data/vasprun.xml"
+>>> output_path = ".../pyIPR/data/IPRs.csv"
 >>> IPR_calculator = IPRCalculator(
                         procar_path=procar_path,
                         eigenval_path=eigenval_path,
